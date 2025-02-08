@@ -1,6 +1,18 @@
-# Used Packages
+# Used Tools
 
+- miniconda
 - python version 3.12.x
+
+
+## Create Environment from package-list.txt
+
+```sh
+> conda create --name bookrecommender --file package-list.txt
+> conda activate bookrecommender
+> jupyter notebook --notebook-dir="<project_folder_full_path>" --no-browser --allow-root
+```
+
+## Create Environment Manually
 
 ```sh
 > conda create --name bookrecommender
